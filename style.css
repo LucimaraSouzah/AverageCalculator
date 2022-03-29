@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Mono:ital,wght@1,200&display=swap");
+
+/* font-family: "Courier New", Courier, monospace; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  border: 2px solid pink;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.alerta {
+  background: #f44336;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* CLASS PARA FORMATAR COM JS */
+.aprovado {
+  background: #64dd17;
+}
+
+.reprovado {
+  background: #f44336;
+}
+
+.recuperacao {
+  background: #ffc107;
+}
+
+/* FORMULARIO */
+form {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* DIV DOS INPUTS */
+.form-group {
+  margin: 0.625rem;
+}
+
+/* INPUTS */
+input[type="number"],
+input[type="text"] {
+  padding: 5px;
+  text-align: center;
+  border-color: pink;
+}
+
+#media {
+  width: 100px;
+}
+
+.cx,
+input[type="text"] {
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}
+
+/* BOTOES */
+.form-group button {
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 3px #222;
+}
+
+#btnCalcular {
+  background: pink;
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#btnLimpar {
+  background: pink;
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+}
